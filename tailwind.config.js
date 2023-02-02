@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Pippoins: "Poppins",
+        Poppins: "Poppins",
       },
     },
   },
