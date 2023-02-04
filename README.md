@@ -32,6 +32,11 @@ Click on our [Repository](https://github.com/AlyaRusyda/eunoia-gallery)
 <li> Comprehensive UI design
 <li> Search pictures
 
+## Documentation
+<img width="911" alt="Screenshot 2023-02-04 192922" src="https://user-images.githubusercontent.com/100183012/216768337-da94882e-908f-4ce6-a914-b4b322c7f8f8.png">
+
+<img width="911" alt="Screenshot 2023-02-04 192950" src="https://user-images.githubusercontent.com/100183012/216768342-5045880d-3302-4d3c-be56-72c0b69ab59d.png">
+
 ## Available Scripts
 
 In the project directory, you can run:
