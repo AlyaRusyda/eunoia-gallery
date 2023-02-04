@@ -1,16 +1,16 @@
 import React from 'react';
 
-const Card = ({ image }) => {
+const ImageCard = ({ image }) => {
   const tags = image.tags.split(',');
 
   return (
-    <div className="bg-teal-100 rounded-lg overflow-hidden mx-auto w-80 m-4 space-x-0 sm:w-80 hover:shadow-2xl text-left">
-      <img src={image.webformatURL} alt="" className="w-full h-36 md:h-48 object-contain m-4 mx-auto mb-4"/>
+    <div className="bg-teal-100 rounded-lg overflow-hidden mx-auto w-48 m-4 space-x-0 sm:w-80 hover:shadow-2xl text-left">
+      <img src={image.webformatURL} alt="" className="w-80 h-48"/>
       <div className="px-6 py-4">
-        <div className="font-bold text-teal-600 text-lg mb-3">
+        <div className="font-bold text-teal-700 text-xl mb-2">
           Photo by {image.user}
         </div>
-        <ul className='text-teal-400'>
+        <ul className='text-teal-600'>
           <li>
             <strong>Views: </strong>
             {image.views}
@@ -25,9 +25,9 @@ const Card = ({ image }) => {
           </li>
         </ul>
       </div>
-      <div className="grid grid-cols-2 lg:grid-cols-2 mx-auto gap-4 p-4">
+      <div className="px-6 py-4">
         {tags.map((tag, index) => (
-          <span key={index} className="inline-block bg-gray-200 rounded-full py-1 px-2 text-sm font-semibold text-gray-700">
+          <span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">
           #{tag}
         </span>
         ))}
@@ -36,4 +36,4 @@ const Card = ({ image }) => {
   )
 }
 
-export default Card;
+export default ImageCard;
